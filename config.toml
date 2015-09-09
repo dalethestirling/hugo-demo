@@ -1,0 +1,54 @@
+baseurl = "http://test.com/"
+title = "Test Site"
+languageCode = "en-us"
+disqusShortname = ""
+MetaDataFormat = "toml"
+theme = "hyde"
+paginate = 10
+
+[author]
+    name = "Test Site"
+
+[permalinks]
+    # Change the permalink format for the 'post' content type.
+    post = "/blog/:year/:month/:day/:title/"
+
+[taxonomies]
+    category = "categories"
+
+[params]
+    # If false display full article contents in blog index.
+    # Otherwise show description and 'read on' link to individual blog post page.
+    # Default (if omitted) is true.
+    truncate = true
+
+    # Default page metadata, used when the specific page doesn't set its own.
+    defaultDescription = "All of the random fun that and geeky stuff I get up to"
+    defaultKeywords = "dale stirling,tech,food,farm,technology,linux,python,devops"
+
+    # Changes sidebar background and link/accent colours.
+    # This also works: "theme-base-0c layout-reverse", or just "layout-reverse".
+#	theme = "theme-base-0c"
+
+    # Select a syntax highight.
+#    highlight = "solarized_light"
+
+    # Tagline to display under the author name in the sidebar, keep it short.
+    # You can use markdown here.
+	tagline = "Computers, Food and the Farm"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Blog".
+    home = "Home"
+
+    # Metadata used to drive integrations.
+
+    # Sidebar social links.
+    github = ""
+    bitbucket = ""
+    linkedin = ""
+    googleplus = ""
+    facebook = ""
+    twitter = ""
+    youtube = ""
+
